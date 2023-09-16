@@ -1,7 +1,31 @@
-@ font-face
+ /*font-face*/
 
 
 
 h1{
     color: blueviolet;
+}
+
+body
+{
+    background-image: url('../images/image_futuriste.jpeg');
+}
+
+h1,h1+p
+{
+    text-align: center;
+}
+
+img
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 3px sandybrown;
+    box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: aqua;
 }
