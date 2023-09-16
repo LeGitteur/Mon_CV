@@ -4,6 +4,7 @@
 
 h1{
     color: rgba(199, 127, 19, 0.886);
+    font-family: Arial, sans-serif;
 }
 
 body
@@ -28,5 +29,11 @@ img
 
 h2
 {
+    color: rgb(14, 96, 19);
+}
+
+h3
+{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     color: rgb(14, 96, 19);
 }
