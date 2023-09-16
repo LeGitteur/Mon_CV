@@ -3,7 +3,7 @@
 
 
 h1{
-    color: blueviolet;
+    color: rgba(199, 127, 19, 0.886);
 }
 
 body
@@ -19,13 +19,14 @@ h1,h1+p
 img
 {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 15px;
+    top: 15px;
     border: 3px sandybrown;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 4px 4px 4px black;
+    width: 10%;
 }
 
 h2
 {
-    color: aqua;
+    color: rgb(14, 96, 19);
 }
