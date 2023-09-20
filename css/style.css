@@ -5,11 +5,8 @@
     src: url('../fonts/B612_Mono/B612Mono-Bold.ttf') format('truetype'),
          url('../fonts/B612_Mono/B612Mono-BoldItalic') format('truetype'),
          url('../fonts/B612_Mono/B612Mono-Italic.ttf') format('truetype'),
-         url('../fonts/B612_Mono/B612Mono-Regular.ttf') format('truetype'),
-    font-weight: normal;
-    font-style 
-
-}
+         url('../fonts/B612_Mono/B612Mono-Regular.ttf') format('truetype');
+    }
 
 @font-face {
     font-family: 'Dekko';
@@ -19,6 +16,19 @@
 body
 {
     background-image: url('../images/image_futuriste.jpeg');
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: pink;
+    width: 80%;
+    margin:auto;
+}
+
+section {
+    background: yellow;
+    max-width: 300px;
 }
 
 h1{
@@ -45,6 +55,7 @@ img
     width: 10%;
 }
 
+
 h2
 {
     color: rgb(14, 96, 19);
@@ -54,4 +65,20 @@ h3
 {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     color: rgb(14, 96, 19);
+}
+/*-------------MEDIA QUERIES--------*/
+@-webkit-keyframes{
+    0%{
+       -webkit-transform :scale3d(1, 1, 1)
+               transform :scale3d(1, 1, 1)
+    }
+}
+/*-------------MEDIA QUERIES--------*/
+@media screen (max-width: 768px) {
+    img{
+        position: unset;
+        display: block;
+        margin: auto;
+    }
+
 }
